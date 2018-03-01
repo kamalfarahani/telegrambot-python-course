@@ -30,7 +30,7 @@ def inline_keyboard_callback(bot: telegram.bot.Bot, update: telegram.update.Upda
 
 
 def main():
-    updater = Updater(token='346627696:AAEse-Ml2q32ONAgSPep8Dx_8x_SyNRYQOQ')
+    updater = Updater(token='xxxx')
     dispacher = updater.dispatcher
 
     logging.basicConfig(
