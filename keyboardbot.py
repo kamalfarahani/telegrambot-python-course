@@ -19,10 +19,6 @@ def main():
     updater = Updater(token='TOKEN')
     dispacher = updater.dispatcher
 
-    logging.basicConfig(
-        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        level=logging.INFO)
-
     make_keyboard_handler = CommandHandler('keyboard', make_keyboard)
     dispacher.add_handler(make_keyboard_handler)
 
